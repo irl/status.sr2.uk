@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: SR2® Cloud Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.sr2.uk
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,18 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Domain Names
+      description: Domain registrar services and DNS.
       closed: true
-    - name: Empty Category
+    - name: Virtual Machines
+      description: Infrastructure that supports virtual machine deployment.
+      closed: true
+    - name: Secure Digital Helpdesks
+      description: Infrastructure that supports secure digital helpdesks.
+      closed: true
+    - name: Circumvention Tools
+      description: Infrastructure that supports censorship circumvention.
+      closed: true
     - name: Uncategorized
       untitled: true
 
@@ -158,20 +166,43 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
+    - name: .uk Registry
+      description: Registration and maintenance of .uk domain names.
+      category: Domain Names
+    - name: .ax Registry
+      description: Registration and maintenance of .ax domain names.
+      category: Domain Names
+    - name: Other Registries
+      description: Registration and maintenance of other domain names.
+      category: Domain Names
+    - name: DNS Hosting
+      description: DNS hosting service.
+      category: Domain Names
+    - name: Compute Hypervisors
+      description: Physical servers that provide general purpose virtual machines.
+      category: Virtual Machines
+    - name: Storage Hypervisors
+      description: Physical servers that provide high capacity storage virtual machines.
+      category: Virtual Machines
+    - name: Proxy Service
+      description: This is the service responsible for rewriting web content to be served via Web Mirrors.
+      category: Circumvention Tools
+    - name: Web Censorship Detection
+      description: This is the service that detects when web resources have been censored.
+      category: Circumvention Tools
     - name: Website
-      description: The web frontend for the application.
+      description: Our main website.
       category: Uncategorized
-      link: https://example.com/
+      link: https://www.sr2.uk/
     - name: API
-      description: The guts of the application.
+      description: The SR2® Cloud API.
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      link: https://cloud.sr2.uk/
+    - name: WHMCS
+      description: Client portal for domain names and shared hosting.
       category: Uncategorized
+      link: https://my.sr2.uk/
+
 
   # What date format to use?
   #
@@ -276,7 +307,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -333,7 +364,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#004B67"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
@@ -348,7 +379,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
 
   # Introduced in v4.0.1 for consistent
   # site title text color.
