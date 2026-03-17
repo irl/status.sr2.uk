@@ -23,5 +23,5 @@ blank if the registrant is a private individual.
 
 ## Get support
 
-If you receive an email asking you to verify your details and do not know how to proceed, reach out to our support service
+If you have a .at registration and do not know how to proceed, reach out to our support service
 by emailing contact@sr2.uk.
