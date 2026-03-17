@@ -206,7 +206,7 @@ params:
       description: Tor bridges using the obfs4proxy pluggable transport.
       category: Circumvention Tools
     # Helpdesks
-    - name: General Helpdesk Operations
+    - name: Secure Digital Helpdesks
       description: General operations for secure digital helpdesks.
       category: Secure Digital Helpdesks
     - name: Signal Channels
@@ -227,10 +227,19 @@ params:
     - name: Microsoft 365 Copilot Email Channels
       description: Microsoft 365 Copilot email channels for secure digital helpdesks.
       category: Secure Digital Helpdesks
+    # Shared Hosting
+    - name: cPanel Hosting
+      description: cPanel shared web and email hosting.
+      category: Shared Hosting
+    # General
     - name: Website
       description: Our main website.
       category: Uncategorized
       link: https://www.sr2.uk/
+    - name: Support
+      description: Customer support via email and telephone.
+      category: Uncategorized
+      link: https://www.sr2.uk/support
     - name: API
       description: The SR2® Cloud API.
       category: Uncategorized
