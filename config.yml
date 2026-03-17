@@ -155,7 +155,7 @@ params:
     - name: Virtual Machines
       description: Infrastructure that supports virtual machine deployment.
       closed: true
-    - name: Shared Web Hosting
+    - name: Shared Hosting
       description: Infrastructure that supports cPanel shared hosting.
       closed: true
     - name: Uncategorized
