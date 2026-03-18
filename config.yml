@@ -263,6 +263,7 @@ params:
     - name: Single Sign-On
       description: Login service for SR2® Cloud services.
       category: Uncategorized
+      link: https://cloud.sr2.uk/docs/sso/
     - name: API
       description: The SR2® Cloud API.
       category: Uncategorized
