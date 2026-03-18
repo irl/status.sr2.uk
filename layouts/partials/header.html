@@ -1,0 +1,31 @@
+<div class="header__content">
+	{{ with site.Params.header.logo.main }}
+		{{ with resources.Get . }}
+			<a href="https://www.sr2.uk/">
+				<img
+					class="header__logo"
+					src="{{ .RelPermalink }}"
+					width="{{ .Width }}"
+					alt="{{ site.Params.header.logo.mainAlt }}" />
+			</a>
+		{{ else }}
+			{{ errorf "Unable to find %s in assets directory" . }}
+		{{ end }}
+	{{ end }}
+
+	{{ if site.Params.header.buttons }}
+		<div class="header__spacer">&nbsp;</div>
+		{{ range site.Params.header.buttons }}
+			<a
+				class="{{ compare.Conditional (compare.Eq .type "text") "header__button--text" "header__button" }}"
+				href="{{ .url | safeURL }}">
+				{{ if .icon }}
+					<i class="header__button__icon" data-feather="{{ .icon }}"></i>
+				{{ end }}
+				{{ .name }}
+			</a>
+		{{ end }}
+	{{ end }}
+</div>
+
+<h1 class="header-heading">Service Status</h1>

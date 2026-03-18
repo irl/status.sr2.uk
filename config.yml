@@ -119,6 +119,26 @@ enableGitInfo: true
 ############################################################
 
 params:
+  enableCustomHTML: true
+
+  header:
+    logo:
+      main: 'images/logo.png' # in assets directory
+      mainAlt: 'Welcome to SR2'
+      small: 'images/logo.png'
+      smallAlt: 'Welcome to SR2'
+    buttons:
+      - type: 'text'
+        name: 'Blog'
+        url: 'https://www.sr2.uk/posts'
+      - type: 'text'
+        name: 'Contact'
+        url: 'https://www.sr2.uk/contact'
+      - type: 'button'
+        name: 'Client Login'
+        icon: 'user'
+        url: 'https://my.sr2.uk/index.php?rp=/login'
+
   # Before setting up your systems, you need
   # to first define at least one category.
   #
@@ -170,10 +190,10 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     # Domain Names
-    - name: .uk Registry
+    - name: uk Registry
       description: Registration and maintenance of .uk domain names.
       category: Domain Names
-    - name: .ax Registry
+    - name: ax Registry
       description: Registration and maintenance of .ax domain names.
       category: Domain Names
     - name: Other Registries

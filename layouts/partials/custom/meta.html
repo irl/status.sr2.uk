@@ -1,0 +1,97 @@
+<!--
+
+This file can be used to add custom HTML
+to your cState powered status page.
+
+https://github.com/cstate/cstate/wiki/Customization
+
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+		href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap"
+		rel="stylesheet" />
+<style>
+	/* Example of custom CSS */
+	html, body {
+		font-family: 'Assistant', sans-serif;
+	}
+
+	.header__content {
+		margin: 0 auto 1rem auto;
+
+		max-width: 1024px;
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		gap: 4px;
+		align-items: center;
+		justify-content: start;
+		padding: 20px 1.25rem;
+
+		font-family: "Assistant", sans-serif;
+		font-size: 17px;
+		font-weight: 500;
+
+		a {
+			border-bottom: none;
+		}
+
+		.header__logo {
+			flex: 0 0 250px;
+			max-width: 250px;
+		}
+
+		.header__spacer {
+			flex: 1 1 auto;
+		}
+
+		.header__button--text {
+			flex: 0 0 auto;
+			color: #506690;
+			padding: 8px 24px;
+		}
+
+		.header__button {
+			flex: 0 0 auto;
+			max-height: 55px;
+			border-radius: 6px;
+			padding: 13px 20px;
+			background-color: #008F5F;
+			color: #FFF;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&:hover {
+				opacity: 0.7;
+				cursor: pointer;
+			}
+		}
+
+		.header__button__icon {
+			height: 17px;
+		}
+
+	}
+
+	.header-heading {
+		color: rgb(34, 34, 34);
+		font-family: sans-serif;
+		font-size: 47.94px;
+		font-weight: 400;
+		line-height: 57.5333px;
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1rem 1.25rem;
+	}
+
+</style>
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+	window.addEventListener("load", () => {
+		feather.replace();
+	});
+</script>
