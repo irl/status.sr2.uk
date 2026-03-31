@@ -1,14 +1,22 @@
 ---
 title: WhatsApp Message Send Issue
 date: 2026-03-25 03:00:00
-resolved: false
-resolvedWhen: 2026-03-25 03:00:00
+resolved: true
+resolvedWhen: 2026-03-31 16:15:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
   - WhatsApp Channels
 section: issue
 ---
+
+**Resolved**: This issue appears to only affect cases where no conversation history exists with the contact the message
+is sent to.
+Due to the nature of the helpdesk, messages are only sent to users that have already sent a message to the helpdesk, so
+we do not believe this issue will affect our users.
+We encourage you to get in touch if you do see any issues with your WhatsApp channel however we are no longer monitoring
+this situation closely.
+{{< track "2026-03-31 16:15:00" >}}
 
 **Monitoring**: We are not aware of this issue affecting any helpdesk currently however we continue to monitor.
 A fix has been found by the upstream project and will be rolled out once released formally.
