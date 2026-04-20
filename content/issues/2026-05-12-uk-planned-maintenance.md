@@ -1,5 +1,5 @@
 ---
-title: Updated .de verification requirements
+title: Nominet planned maintenance
 date: 2026-05-12 05:00:00
 resolved: true
 resolvedWhen: 2017-12-17 07:00:00
