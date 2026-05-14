@@ -1,5 +1,5 @@
 ---
-title: New helpdesk telephone numbers
+title: New support telephone numbers
 date: 2026-05-14 09:00:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
