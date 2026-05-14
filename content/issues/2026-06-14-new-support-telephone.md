@@ -21,6 +21,9 @@ For urgent issues requiring support, or if required for accessibility reasons, p
 * Alternate: <a href="tel:+447469477564">+44 7469 477564</a>
 
 Please use the alternate number in the case of disruption to our primary telephony provider.
+Our telephone is answered between 9am to 5pm UK time when staff are available.
+Any voicemail left will be logged in our helpdesk, please make sure to leave your contact details in any voicemail
+message.
 
 If you require the use of a text relay, we are happy for you to use a relay service to contact us.
 In the UK, use the [Relay UK](https://www.relayuk.bt.com/how-to-use-relay-uk/use-relay-uk-with-app.html) app and dial:
