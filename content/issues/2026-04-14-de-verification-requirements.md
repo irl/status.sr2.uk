@@ -7,7 +7,7 @@ date: 2026-04-14 00:00:00
 severity: notice
 informational: true
 affected:
-  - Other Registries
+  - Domain Names
 section: issue
 ---
 

@@ -163,22 +163,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Domain Names
-      description: Domain registrar services and DNS.
+    - name: Uncategorized
+      untitled: true
+    - name: Infrastructure Hosting
+      description: Hosting of core services including domains, DNS, and virtual servers.
       closed: true
     - name: Circumvention Tools
       description: Infrastructure that supports censorship circumvention.
       closed: true
-    - name: Secure Digital Helpdesks
+    - name: Link Secure Digital Helpdesks
       description: Infrastructure that supports secure digital helpdesks.
-      closed: true
-    - name: Virtual Machines
-      description: Infrastructure that supports virtual machine deployment.
-      closed: true
-    - name: Shared Hosting
-      description: Infrastructure that supports cPanel shared hosting.
-      closed: true
-    - name: Uncategorized
       untitled: true
 
   # These are your systems. Change them to
@@ -190,67 +184,14 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     # Domain Names
-    - name: uk Registry
-      description: Registration and maintenance of .uk domain names.
-      category: Domain Names
+
     - name: ax Registry
       description: Registration and maintenance of .ax domain names.
       category: Domain Names
     - name: Other Registries
       description: Registration and maintenance of other domain names.
       category: Domain Names
-    - name: DNS Hosting
-      description: DNS hosting service.
-      category: Domain Names
-    # Virtual Machines
-    - name: Management Node
-      description: Server responsible for management of the hypervisors.
-      category: Virtual Machines
-    - name: Compute Hypervisors
-      description: Physical servers that provide general purpose virtual machines.
-      category: Virtual Machines
-    - name: Storage Hypervisors
-      description: Physical servers that provide high capacity storage virtual machines.
-      category: Virtual Machines
-    - name: Backup Storage
-      description: Backup targets for virtual machines.
-      category: Virtual Machines
-    # Circumvention Tools
-    - name: Proxy Service
-      description: This is the service responsible for rewriting web content to be served via Web Mirrors.
-      category: Circumvention Tools
-    - name: Web Censorship Detection
-      description: This is the service that detects when web resources have been censored.
-      category: Circumvention Tools
-    - name: Tor Bridges (obfs4proxy)
-      description: Tor bridges using the obfs4proxy pluggable transport.
-      category: Circumvention Tools
-    # Helpdesks
-    - name: Secure Digital Helpdesks
-      description: General operations for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: Signal Channels
-      description: Signal channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: WhatsApp Channels
-      description: WhatsApp channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: Telegram Channels
-      description: Telegram channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: Hosted Email Channels
-      description: Hosted email channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: Google Workspace Email Channels
-      description: Google Workspace email channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    - name: Microsoft 365 Copilot Email Channels
-      description: Microsoft 365 Copilot email channels for secure digital helpdesks.
-      category: Secure Digital Helpdesks
-    # Shared Hosting
-    - name: cPanel Hosting
-      description: cPanel shared web and email hosting.
-      category: Shared Hosting
+
     # General
     - name: Website
       description: Our main website.
@@ -269,10 +210,36 @@ params:
       category: Uncategorized
       link: https://cloud.sr2.uk/
     - name: WHMCS
-      description: Client portal for domain names and shared hosting.
+      description: Client portal for domain names, shared hosting, and billing.
       category: Uncategorized
       link: https://my.sr2.uk/
+    # Infrastructure Hosting
+    - name: Domain Names
+      description: Registration and maintenance of domain names.
+      category: Infrastructure Hosting
+    - name: DNS Hosting
+      description: DNS hosting service.
+      category: Infrastructure Hosting
+    - name: Shared Hosting
+      description: cPanel shared web and email hosting.
+      category: Infrastructure Hosting
+    - name: Virtual Servers
+      description: Virtual server hosting.
+      category: Infrastructure Hosting
 
+    # Circumvention Tools
+    - name: Web Mirrors
+      description: No software necessary circumvention for media.
+      category: Circumvention Tools
+      link: https://cloud.sr2.uk/docs/mirrors/
+    - name: Tor Bridges
+      description: Tor bridges using pluggable transports for circumvention.
+      category: Circumvention Tools
+
+    - name: Link Secure Digital Helpdesks
+      description: Our secure digital helpdesk platform for multi-channel support interactions.
+      category: Link Secure Digital Helpdesks
+      link: https://cloud.sr2.uk/docs/link/
 
   # What date format to use?
   #

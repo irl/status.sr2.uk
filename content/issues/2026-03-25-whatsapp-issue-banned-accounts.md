@@ -6,7 +6,7 @@ resolvedWhen: 2026-03-31 16:15:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
-  - WhatsApp Channels
+  - Link Secure Digital Helpdesks
 section: issue
 ---
 

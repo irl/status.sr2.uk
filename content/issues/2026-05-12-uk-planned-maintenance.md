@@ -7,7 +7,7 @@ resolvedWhen: 2026-05-12 07:00:00
 severity: notice
 informational: true
 affected:
-  - uk Registry
+  - Domain Names
 section: issue
 ---
 
