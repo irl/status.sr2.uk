@@ -171,9 +171,9 @@ params:
     - name: Circumvention Tools
       description: Infrastructure that supports censorship circumvention.
       closed: true
-    - name: Link Secure Digital Helpdesks
-      description: Infrastructure that supports secure digital helpdesks.
-      untitled: true
+#    - name: Link Secure Digital Helpdesks
+#      description: Infrastructure that supports secure digital helpdesks.
+#      untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -235,7 +235,6 @@ params:
     - name: Tor Bridges
       description: Tor bridges using pluggable transports for circumvention.
       category: Circumvention Tools
-
     - name: Link Secure Digital Helpdesks
       description: Our secure digital helpdesk platform for multi-channel support interactions.
       category: Link Secure Digital Helpdesks
