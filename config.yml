@@ -237,7 +237,7 @@ params:
       category: Circumvention Tools
     - name: Link Secure Digital Helpdesks
       description: Our secure digital helpdesk platform for multi-channel support interactions.
-      category: Link Secure Digital Helpdesks
+      category: Uncategorized
       link: https://cloud.sr2.uk/docs/link/
 
   # What date format to use?
