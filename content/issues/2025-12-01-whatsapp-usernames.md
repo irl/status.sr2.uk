@@ -1,10 +1,11 @@
 ---
 title: WhatsApp introducing usernames
 date: 2025-12-01 12:00:00
-resolved: true
+#resolved: true
 resolvedWhen: 2026-03-17 20:00:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
+informational: true
 affected:
   - Link Helpdesks
 section: issue

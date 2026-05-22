@@ -1,10 +1,11 @@
 ---
 title: WhatsApp Message Send Issue
 date: 2026-03-25 03:00:00
-resolved: true
+#resolved: true
 resolvedWhen: 2026-03-31 16:15:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
+informational: true
 affected:
   - Link Helpdesks
 section: issue
