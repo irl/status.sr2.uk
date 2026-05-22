@@ -11,7 +11,7 @@ section: issue
 
 We are currently performing emergency patching to address a vulnerability, CVE-2026-48063, discovered in an open source
 component we use to provide WhatsApp functionality.
-As a result of this it may be necessary to relink your WhatsApp channel if you self-manage your handset.
+**As a result of this it may be necessary to relink your WhatsApp channel if you self-manage your handset.**
 If we fully manage your instance, no action is required as we will test and relink the channel for you.
 
 Due to the critical nature of this issue we have not been able to do this within a pre-scheduled maintenance window.
