@@ -167,10 +167,10 @@ params:
       untitled: true
     - name: Infrastructure Hosting
       description: Hosting of core services including domains, DNS, and virtual servers.
-      closed: true
+      closed: false
     - name: Circumvention Tools
       description: Infrastructure that supports censorship circumvention.
-      closed: true
+      closed: false
 #    - name: Link Secure Digital Helpdesks
 #      description: Infrastructure that supports secure digital helpdesks.
 #      untitled: true
