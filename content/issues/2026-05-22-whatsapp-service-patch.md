@@ -1,11 +1,11 @@
 ---
 title: Emergency patching for CVE-2026-48063 affecting WhatsApp channels
 date: 2026-05-22 08:00:00
-resolvedWhen: 2026-05-22 16:00:00
+#resolvedWhen: 2026-05-22 16:00:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - Link Secure Digital Helpdesks
+  - Link Helpdesks
 section: issue
 ---
 

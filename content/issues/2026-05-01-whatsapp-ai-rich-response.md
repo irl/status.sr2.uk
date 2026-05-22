@@ -5,7 +5,7 @@ severity: notice
 informational: true
 section: issue
 affected:
-  - Link Secure Digital Helpdesks
+  - Link Helpdesks
 ---
 
 A [WhatsApp security advisory](https://www.whatsapp.com/security/advisories/2026) announced a discovered vulnerability,

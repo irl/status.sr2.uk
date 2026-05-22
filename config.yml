@@ -226,6 +226,10 @@ params:
     - name: Virtual Servers
       description: Virtual server hosting.
       category: Infrastructure Hosting
+    - name: Link Helpdesks
+      description: Our secure digital helpdesk platform for multi-channel support interactions.
+      category: Infrastructure Hosting
+      link: https://cloud.sr2.uk/docs/link/
 
     # Circumvention Tools
     - name: Web Mirrors
@@ -235,10 +239,6 @@ params:
     - name: Tor Bridges
       description: Tor bridges using pluggable transports for circumvention.
       category: Circumvention Tools
-    - name: Link Secure Digital Helpdesks
-      description: Our secure digital helpdesk platform for multi-channel support interactions.
-      category: Uncategorized
-      link: https://cloud.sr2.uk/docs/link/
 
   # What date format to use?
   #

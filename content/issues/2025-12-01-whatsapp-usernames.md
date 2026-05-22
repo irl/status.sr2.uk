@@ -6,7 +6,7 @@ resolvedWhen: 2026-03-17 20:00:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - Link Secure Digital Helpdesks
+  - Link Helpdesks
 section: issue
 ---
 
