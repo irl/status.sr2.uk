@@ -236,6 +236,9 @@ params:
       description: No software necessary circumvention for media.
       category: Circumvention Tools
       link: https://cloud.sr2.uk/docs/mirrors/
+    - name: Onion Services
+      description: Robust and resilient website mirrors using the Tor network.
+      category: Circumvention Tools
     - name: Tor Bridges
       description: Tor bridges using pluggable transports for circumvention.
       category: Circumvention Tools
