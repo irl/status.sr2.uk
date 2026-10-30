@@ -1,8 +1,8 @@
 ---
-title: Hypervisor reboots for Linux kernel vulnerability (CVE-2026-98432)
+title: Hypervisor reboots for Linux kernel vulnerability (postponed)
 date: 2026-10-29 14:38:00
-resolved: false
-# resolvedWhen: 2026-10-29 00:00:00
+resolved: true
+resolvedWhen: 2026-10-29 18:00:00
 # Possible severity levels: down, disrupted, notice
 # Switch to "disrupted" (degraded) when remediation begins
 # severity: disrupted
